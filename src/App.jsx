@@ -55,7 +55,7 @@ function App(){
       <Presentacion modo={modo}/>
       <p id="tecnologias"></p><br/>
       <h1 className="tituloSection animate__animated animate__bounceInDown" data-aos="fade-down" data-aos-offset="200">
-        <i className="fa-solid fa-microchip"></i> Tecnologíasaaaaa</h1>
+        <i className="fa-solid fa-microchip"></i> Tecnología</h1>
       <Tecnologias></Tecnologias>
       <p id="educacion"></p><br/>
       <h1 className="tituloSection" data-aos="fade-up" data-aos-offset="200"><i className="fa-solid fa-graduation-cap"></i> Educación</h1>
