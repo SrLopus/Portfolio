@@ -21,6 +21,7 @@ function NavBar({ toggleModo, modo }){
   
   return (
     <nav className={`animate__animated animate__bounceInDown barraNavegacion ${scrollNav ? "animate__animated animate__bounceInDown barraNavegacion-scroll" : "animate__animated animate__bounceInDown barraNavegacion-stoped"}`}>
+      <a href="#inicio">Inicio</a>
       <a href="#tecnologias" className="btn-nav">Tecnologías</a>
       <a href="#educacion" className="btn-nav">Educación</a>
       <a href="#sobre-mi" className="btn-nav">Sobre mí</a>

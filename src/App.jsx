@@ -52,6 +52,7 @@ function App(){
   return (
     <div id="main">
       <NavBar toggleModo={toggleModo} modo={modo}/>
+      <p id="inicio"></p>
       <Presentacion modo={modo}/>
       <p id="tecnologias"></p><br/>
       <h1 className="tituloSection animate__animated animate__bounceInDown" data-aos="fade-down" data-aos-offset="200">
