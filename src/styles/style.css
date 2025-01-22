@@ -129,7 +129,7 @@ html {
 
 #main {
     background: var(--fondo), var(--color-fondo);
-    height: 300vh;
+    height: 500vh;
     min-height: 200vh;
     display: flex;
     flex-direction: column;

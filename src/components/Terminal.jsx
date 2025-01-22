@@ -105,7 +105,7 @@ function Terminal(){
 
         if(e.ctrlKey && e.key == 'l'){
             e.preventDefault();
-            result.innerHTML="";
+            result.innerHTML=cabecera;
         }
 
         if (e.key == "ArrowLeft" && parseFloat(cursor.style.left) >= (0 - ((count - 1) * 10))) {

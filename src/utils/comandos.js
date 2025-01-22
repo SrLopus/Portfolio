@@ -26,13 +26,14 @@ con mi amor por resolver problemas y crear soluciones
 que realmente aporten valor. Creo firmemente que
 la programación es una herramienta poderosa para mejorar el mundo.
 
-Cosas sobre mí:
-- Nombre: Raúl Juan Martí
-- Edad: 23 años
-- Tecnologías: JavaScript,HTML,CSS,Bootstrap,PHP,
-JAVA,REACT,LARAVEL,MVC
-- Especialidad: Desarrollo Aplicaciones Web
-- Pasatiempos: Videojuegos, aprendizaje continuo y programación.
+const aboutMe = {
+    name: "Raúl Juan Martí",
+    age: 23,
+    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap", "PHP", 
+    "Java","REACT"],
+    specialty: "Desarrollo de Aplicaciones Web",
+    hobbies: ["Videojuegos", "Aprendizaje continuo", "Programación"],
+}.
 
 Mi filosofía: "Aprender, crear, compartir. Y repetir."`
 

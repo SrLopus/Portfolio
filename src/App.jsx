@@ -8,6 +8,7 @@ import 'animate.css';
 import Tecnologias from "./components/Carrusel.jsx";
 import Card from "./components/Card.jsx"
 import Terminal from "./components/Terminal.jsx";
+import Proyectos from "./components/Proyectos.jsx";
 
 function App(){
 
@@ -71,7 +72,7 @@ function App(){
       </div><br/>
       <p id="proyectos"></p><br/>
       <h1 className="tituloSection" data-aos="fade-up" data-aos-offset="200"><i className="fa-solid fa-user"></i> Proyectos</h1>
-
+      <Proyectos></Proyectos>
     </div>
   );
 };
