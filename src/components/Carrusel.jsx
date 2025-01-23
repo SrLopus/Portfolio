@@ -7,13 +7,14 @@ import php from "../assets/icons/php.svg";
 import nodejs from "../assets/icons/nodejs.svg";
 import git from "../assets/icons/git.svg";
 import vite from "../assets/icons/vite.svg";
+import laravel from "../assets/icons/laravel.svg";
 import 'animate.css';
 import "../styles/style.css";
 
 function Carrusel(){
     return (
         <div className="banner animate__animated animate__bounceInDown">
-            <div className="slider" style={{ "--quantity": 9 }}>
+            <div className="slider" style={{ "--quantity": 10 }}>
                 <div className="item" style={{ "--position": 1 }}>
                     <img src={javasript} alt="" />
                 </div>
@@ -40,6 +41,9 @@ function Carrusel(){
                 </div>
                 <div className="item" style={{ "--position": 9 }}>
                     <img src={vite} alt="" />
+                </div>
+                <div className="item" style={{ "--position": 10 }}>
+                    <img src={laravel} alt="" />
                 </div>
             </div>
         </div>

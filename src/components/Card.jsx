@@ -14,7 +14,7 @@ function Card({ img, titulo, realizado, fecha, tecnologias }) {
   }, []);
 
   return (
-    <div data-tilt-perspective="1000" data-tilt-transition="true" ref={tiltRef} className="card">
+    <div data-tilt-perspective="800" data-tilt-transition="true" ref={tiltRef} className="card">
       <div className='card-cabecera'>
         <img className='card-img' src={img} alt={titulo} />
         <div className='card-cabecera-interior'>
