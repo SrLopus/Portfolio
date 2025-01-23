@@ -88,6 +88,8 @@ html {
 }
 
 .etiqueta:hover{
+    background-color: var(--color-texto1);
+    color: var(--color-fondo) ;
     scale: 1.15;
     animation: popMini 0.3s linear;
 }
