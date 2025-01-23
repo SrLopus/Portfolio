@@ -35,7 +35,7 @@ const aboutMe = {
     hobbies: ["Videojuegos", "Aprendizaje continuo","Programación"]
 }.
 
-Mi filosofía: "Aprender, crear, compartir. Y repetir."`
+Mi filosofía: "Aprender, crear, compartir. Y repetir".`
 
 let skills=`**Gestión de Proyectos:**
 - Uso de herramientas de control de versiones como Git y GitHub.
