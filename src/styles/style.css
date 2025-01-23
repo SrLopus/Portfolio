@@ -58,6 +58,37 @@ html {
     animation: blinker 1s linear infinite;
     left: 0px;
 }
+.card-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-fecha{
+    color: var(--color-texto1);
+}
+
+.card-tecnologias{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-top: 10px;
+} 
+
+.etiqueta{
+    color: var(--color-texto1);
+    background-color: var(--color-fondo);
+    font-size: 12px;
+    padding: 5px;
+    border: solid 1px #859ec0;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.etiqueta:hover{
+    animation: pop 0.3s linear;
+}
 
 #typer,
 #result {
@@ -75,11 +106,7 @@ html {
     font-size: 22px;
 }
 
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
+
 
 .contenedorEducacion {
     display: flex;
@@ -89,26 +116,61 @@ html {
 .card {
     width: fit-content;
     height: fit-content;
-    margin: 0 auto;
-    background-color:var(--color-card);
-    border-radius: 8px;
-    z-index: 1;
-    color: var(--color-texto1);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     padding: 20px;
-    left: none;
+    margin: 0 auto;
+    background-color: var(--color-card);
+    border-radius: 1rem;
 }
 
-.tools {
+.tituloCard{
+    font-size: 18px;
+    color: var(--color-texto1);
+    margin: 0;
+}
+.tituloSecunCard{
+    font-size: 16px;
+    color: var(--color-texto1);
+}
+
+.realizado{
+    border-radius: 2rem;
+    background-color: #23a464;
+    color: #abffe6;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    margin: 0;
+}
+
+.card-cabecera{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 9px;
 }
 
-.circle {
-    padding: 0 4px;
+.noRealizado{
+    width: fit-content;
+    border-radius: 2rem;
+    background-color: #ff8000;
+    color: #fddec3;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+    padding: 5px;
 }
-
+.card-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card-cabecera-interior{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+}
 .box {
     display: inline-block;
     align-items: center;
@@ -116,10 +178,6 @@ html {
     height: 10px;
     padding: 1px;
     border-radius: 50%;
-}
-
-.blue {
-    background-color: #035ffb;
 }
 
 #typer {
@@ -356,6 +414,11 @@ html {
 .banner .slider .item img {
     width: 100%;
     height: 100%;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 @keyframes spin {

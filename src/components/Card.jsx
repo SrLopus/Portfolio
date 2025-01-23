@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import 'animate.css';
 
-function Card(datos){
+function Card({ img, titulo, realizado, fecha, tecnologias }) {
   const tiltRef = useRef(null);
   
   useEffect(() => {
@@ -14,25 +14,24 @@ function Card(datos){
   }, []);
 
   return (
-    <div data-tilt-glare="true" data-tilt-max-glare="0.2" data-tilt-perspective="500" data-tilt-transition="true" ref={tiltRef} className={`card`}>
-      <div className="tools">
-        <div className="circle">
-          <span className="blue box"></span>
-        </div>
-        <div className="circle">
-          <span className="blue box"></span>
-        </div>
-        <div className="circle">
-          <span className="blue box"></span>
+    <div data-tilt-perspective="1000" data-tilt-transition="true" ref={tiltRef} className="card">
+      <div className='card-cabecera'>
+        <img className='card-img' src={img} alt={titulo} />
+        <div className='card-cabecera-interior'>
+          <h2 className='tituloCard'>{titulo}</h2>
+          <div className='card-info'>
+            <span className={`${realizado === "true" ? "realizado" : "noRealizado"}`}>{realizado === "true" ? "Completado" : "En proceso"}</span>
+            <span className='card-fecha'><i className="fa-solid fa-location-dot"></i> {fecha}</span>
+          </div>
         </div>
       </div>
-      <h3>{datos.titulo}</h3>
-      <h4>{datos.sitio}</h4>
-      <span>{datos.fecha}</span>
+      <div className='card-tecnologias'>
+        {Array.isArray(tecnologias) && tecnologias.map((tecnologia, index) => {
+          return <span key={index} className='etiqueta'>{tecnologia}</span>;
+        })}
+      </div>
     </div>
   );
 }
 
-
 export default Card;
-

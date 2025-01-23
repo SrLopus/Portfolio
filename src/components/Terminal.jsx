@@ -27,7 +27,7 @@ function Terminal(){
     }
     
 
-    let manejarTeclas = (e)=> {
+    let manejarTeclas = (e) => {
         let typer = document.getElementById("typer");
         let result = document.getElementById("result");
         let texto = document.getElementById("texto");
@@ -43,7 +43,7 @@ function Terminal(){
             historial.unshift(typer.textContent);
 
             if(typer.textContent.toLowerCase() == "clear"){
-                result.innerHTML=""; 
+                result.innerHTML=cabecera; 
             }else{
                 let resultado;
                 if(typer.textContent.toLowerCase() == "game"){

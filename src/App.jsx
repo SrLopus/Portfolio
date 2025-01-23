@@ -9,6 +9,9 @@ import Tecnologias from "./components/Carrusel.jsx";
 import Card from "./components/Card.jsx"
 import Terminal from "./components/Terminal.jsx";
 import Proyectos from "./components/Proyectos.jsx";
+import daw from "./assets/img/daw.png";
+import smr from "./assets/img/smr.png";
+import { dawTec, smrTec } from "./utils/tecnologias.js";
 
 function App(){
 
@@ -62,8 +65,8 @@ function App(){
       <p id="educacion"></p><br/>
       <h1 className="tituloSection" data-aos="fade-up" data-aos-offset="200"><i className="fa-solid fa-graduation-cap"></i> Educación</h1>
       <div className="contenedorEducacion" data-aos="zoom-in" data-aos-offset="200">
-        <Card titulo="CFGM - Sistemas microinformáticos y redes" sitio="IES Enric Valor" fecha="2021 - 2023"></Card>
-        <Card titulo="CFGS  - Desarrollo de Aplicaciones Web" sitio="IES Enric Valor" fecha="2023 - Actualidad"></Card>
+        <Card tecnologias={smrTec} img={smr} realizado = "true" titulo="CFGM - Sistemas microinformáticos y redes" sitio="IES Enric Valor" fecha="2021 - 2023"></Card>
+        <Card tecnologias={dawTec} img={daw} realizado = "false" titulo="CFGS  - Desarrollo de Aplicaciones Web" sitio="IES Enric Valor" fecha="2023 - Actualidad"></Card>
       </div>
       <p id="sobre-mi"></p><br/>
       <h1 className="tituloSection" data-aos="fade-up" data-aos-offset="200"><i className="fa-solid fa-user"></i> Sobre mí</h1>
