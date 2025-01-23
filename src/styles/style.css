@@ -146,8 +146,9 @@ html {
 }
 
 .realizado:hover{
-    background-color: #065F46;
-    color: #abffe6;
+    background-color: #42e091;
+    border: solid 1px #23a464;
+    color: black;
     scale: 1.10;
     animation: popMini 0.3s linear;
 }
@@ -161,17 +162,19 @@ html {
 .noRealizado{
     width: fit-content;
     border-radius: 2rem;
-    background-color: #ff8000;
+    background-color: #ff6201;
     color: #fddec3;
     font-weight: bold;
     font-size: 12px;
     margin: 0;
     padding: 5px;
+    transition: 0.3s;
 }
 
 .noRealizado:hover{
-    background-color: #ff6201;
-    color: #fddec3;
+    background-color: #ff9c5f;
+    border: solid 1px #ff6201;
+    color: black;
     scale: 1.10;
     animation: popMini 0.3s linear;
 }

@@ -20,7 +20,7 @@ function Card({ img, titulo, realizado, fecha, tecnologias }) {
         <div className='card-cabecera-interior'>
           <h2 className='tituloCard'>{titulo}</h2>
           <div className='card-info'>
-            <span className={`${realizado === "true" ? "realizado" : "noRealizado"}`}>{realizado === "true" ? "Completado" : "En proceso"}</span>
+            <span className={`${realizado === "true" ? "realizado" : "noRealizado"}`}>{realizado === "true" ? "Completado" : "Cursando"}</span>
             <span className='card-fecha'><i className="fa-solid fa-location-dot"></i> {fecha}</span>
           </div>
         </div>
