@@ -9,9 +9,7 @@ import gmail from "../assets/icons/gmail.svg"
 function Presentacion(modo){
   return (
     <section className="presentacion animate__animated animate__bounceInDown">
-      <div className="contenedor-img">
-        <img src={modo?heroImageDark:heroImage} id="img-hero" className="img-hero" alt="Hero"/>
-      </div>
+      <img src={modo?heroImageDark:heroImage} id="img-hero" className="img-hero" alt="Hero"/>
       <h1 className="tituloPres">Hola, soy Raúl Juan</h1>
       <p className="textoPres">
         <span style={{ color: "#035ffb" }}>Desarrollador de aplicaciones web</span>
