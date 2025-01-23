@@ -145,6 +145,13 @@ html {
     margin: 0;
 }
 
+.realizado:hover{
+    background-color: #065F46;
+    color: #abffe6;
+    scale: 1.10;
+    animation: popMini 0.3s linear;
+}
+
 .card-cabecera{
     display: flex;
     justify-content: space-between;
@@ -160,6 +167,13 @@ html {
     font-size: 12px;
     margin: 0;
     padding: 5px;
+}
+
+.noRealizado:hover{
+    background-color: #ff6201;
+    color: #fddec3;
+    scale: 1.10;
+    animation: popMini 0.3s linear;
 }
 
 .card-img{
