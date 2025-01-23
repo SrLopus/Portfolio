@@ -90,7 +90,7 @@ html {
 .etiqueta:hover{
     background-color: var(--color-texto1);
     color: var(--color-fondo) ;
-    scale: 1.15;
+    scale: 1.10;
     animation: popMini 0.3s linear;
 }
 
@@ -462,7 +462,7 @@ html {
     }
 
     50% {
-        transform: scale(1.15);
+        transform: scale(1.10);
     }
 
     100% {
