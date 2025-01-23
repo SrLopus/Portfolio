@@ -49,23 +49,29 @@ function Terminal(){
                 if(typer.textContent.toLowerCase() == "game"){
                     game = true;
                     numero = Math.floor(Math.random() * 100) + 1;
-                    resultado = "¡Adivina un número entre 1 y 100! Si te rindes utiliza 'exit' ";
-                    console.log(numero);
                 }
 
                 if(game){
-                    if(typer.textContent.toLowerCase()=="exit"){
-                        game = false;
-                        resultado = "Te has rendido ;(";
-                    }else{
-                        if(typer.textContent==numero.toString()){
+                    switch(true){
+                        case typer.textContent.toLowerCase()=="exit":
+                            game = false;
+                            resultado = "Te has rendido ;(";
+                            break;
+                        case typer.textContent.toLowerCase()==numero.toString():
                             resultado = "Lo has adivinado";
                             game = false;
-                        }else{
-                            if(typer.textContent.toLowerCase()!="game"){
-                                resultado = typer.textContent+" no es, prueba otra vez";
-                            }         
-                        }
+                            break;
+                        case typer.textContent.toLowerCase()=="game":
+                            resultado = "¡Adivina un número entre 1 y 100! Si te rindes utiliza 'exit'";
+                            break;
+                        case parseInt(typer.textContent)<numero:
+                            resultado = "El número es mayor";
+                            break;
+                        case parseInt(typer.textContent)>numero:
+                            resultado = "El número es menor";
+                            break;
+                        default:
+                            resultado = "Prueba un número";
                     }
                 }else{
                     resultado = determinarResultado(typer.textContent);
