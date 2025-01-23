@@ -144,6 +144,7 @@ html {
     padding: 5px;
     margin: 0;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .realizado:hover{
@@ -152,6 +153,7 @@ html {
     color: black;
     scale: 1.10;
     animation: popMini 0.3s linear;
+    transition: 0.5s;
 }
 
 .card-cabecera{
@@ -173,7 +175,9 @@ html {
     transition: 0.3s;
 }
 
+
 .noRealizado:hover{
+    transition: 0.5s;
     background-color: #ff9c5f;
     border: solid 1px #ff6201;
     color: black;
