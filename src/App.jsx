@@ -9,7 +9,7 @@ import Tecnologias from "./components/Carrusel.jsx";
 import Card from "./components/Card.jsx"
 import Terminal from "./components/Terminal.jsx";
 import Proyectos from "./components/Proyectos.jsx";
-import daw from "./assets/img/daw.png";
+import daw from "./assets/img/imagenDaw.png";
 import smr from "./assets/img/smr.png";
 import { dawTec, smrTec } from "./utils/tecnologias.js";
 
