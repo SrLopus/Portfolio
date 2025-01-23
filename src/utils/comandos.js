@@ -66,7 +66,7 @@ Soñando... 🌟
 2. Contribuir a proyectos de código abierto.
 3. Crear aplicaciones innovadoras.
 4. Liderar equipos de desarrollo.
-5. Hacer una aplicacion conocida en todo el mundo.
+5. Hacer una aplicación conocida en todo el mundo.
 ----------------------------------------------
 Mi sueño: ser un desarrollador integral y dejar un 
 impacto positivo con mis proyectos. ¡A seguir creciendo!`
