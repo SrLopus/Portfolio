@@ -32,8 +32,7 @@ const aboutMe = {
     technologies: ["JavaScript", "HTML", "CSS", "Bootstrap", "PHP", 
     "Java","REACT"],
     specialty: "Desarrollo de Aplicaciones Web",
-    hobbies: ["Videojuegos", "Aprendizaje continuo"
-    ,"Programación"]
+    hobbies: ["Videojuegos", "Aprendizaje continuo","Programación"]
 }.
 
 Mi filosofía: "Aprender, crear, compartir. Y repetir."`
