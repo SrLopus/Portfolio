@@ -143,6 +143,7 @@ html {
     font-size: 12px;
     padding: 5px;
     margin: 0;
+    cursor: pointer;
 }
 
 .realizado:hover{
@@ -160,6 +161,7 @@ html {
 }
 
 .noRealizado{
+    cursor: pointer;
     width: fit-content;
     border-radius: 2rem;
     background-color: #ff6201;
