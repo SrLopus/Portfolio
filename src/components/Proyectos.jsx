@@ -1,6 +1,6 @@
 function Proyectos(){
     return(
-        <div></div>
+        <div><h1>AAAAA</h1></div>
     )
 }
 export default Proyectos;
