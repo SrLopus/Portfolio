@@ -221,7 +221,7 @@ html {
 
 #main {
     background: var(--fondo), var(--color-fondo);
-    height: 500vh;
+    height: auto;
     min-height: 200vh;
     display: flex;
     flex-direction: column;
@@ -331,6 +331,14 @@ html {
     font-weight: bold;
     transition: 0.2s;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
 
 .hidden {
     opacity: 0;

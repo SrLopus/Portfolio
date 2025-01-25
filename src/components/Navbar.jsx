@@ -25,8 +25,6 @@ function NavBar({ toggleModo, modo }){
       <a href="#tecnologias" className="btn-nav">Tecnologías</a>
       <a href="#educacion" className="btn-nav">Educación</a>
       <a href="#sobre-mi" className="btn-nav">Sobre mí</a>
-      <a href="#proyectos" className="btn-nav">Proyectos</a>
-      <a href="#contacto" className="btn-nav">Contacto</a>
       <button className={`fas fa-${modo ? "sun" : "moon"}`} id="btn-modo" onClick={toggleModo}></button>
     </nav>
   );
