@@ -16,7 +16,7 @@ function Carrusel(){
         <div className="banner animate__animated animate__bounceInDown">
             <div className="slider" style={{ "--quantity": 10 }}>
                 <div className="item" style={{ "--position": 1 }}>
-                    <img src={javasript} alt="" />
+                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank"><img src={javasript}/></a>
                 </div>
                 <div className="item" style={{ "--position": 2 }}>
                     <img src={git} alt="" />
