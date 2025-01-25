@@ -21,8 +21,8 @@ function Presentacion(modo){
       </span>
       <div className="botonesContacto">
         <a href="https://www.linkedin.com/in/raúl-juan-martí-b3a66a257/"><img src={linkedin} alt="LinkedIn" className="icon-linkedin"/></a>
-        <a href=""><img src={github} alt="GitHub" className="icon-github"/></a>
-        <a href=""><img src={gmail} alt="Gmail" className="icon-gmail"/></a>
+        <a href="https://github.com/SrLopus"><img src={github} alt="GitHub" className="icon-github"/></a>
+        <a href="mailto:rauljuanmarti@gmail.com"><img src={gmail} alt="Gmail" className="icon-gmail"/></a>
       </div>
     </section>
   );
