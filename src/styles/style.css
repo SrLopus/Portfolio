@@ -562,3 +562,56 @@ form {
         font-size: 5em;
     }
 }
+
+@media screen and (max-width: 1240px){
+    .contenedorEducacion {
+        flex-direction: column;
+    }
+    .tituloPres{
+        font-size: 32px;
+    }
+    .card{
+        width: 350px;
+    }
+    .card-tecnologias{
+        width: 350px;
+    }
+
+    .terminal{
+        width: auto;
+        max-width: 800px;
+        margin: 10px;
+    }
+
+    #result{
+        width: auto;
+    }
+    pre{
+        width: auto;
+        text-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .terminal{
+        width: 300px;
+        max-width: 800px;
+        margin: 10px;
+    }
+
+    #result{
+        width: 300px;
+        font-size: 18px;
+    }
+    .ubicacion{
+        font-size: 16px;
+    }
+    #typer{
+        font-size: 16px;
+    }
+    pre{
+        width: 300px;
+        text-wrap: wrap;
+    }
+}
+
