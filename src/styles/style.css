@@ -571,10 +571,10 @@ form {
         font-size: 32px;
     }
     .card{
-        width: 350px;
+        width: 300px;
     }
     .card-tecnologias{
-        width: 350px;
+        width: 300px;
     }
 
     .terminal{
@@ -612,6 +612,9 @@ form {
     pre{
         width: 300px;
         text-wrap: wrap;
+    }
+    .btn-nav{
+        font-size: 14px;
     }
 }
 
